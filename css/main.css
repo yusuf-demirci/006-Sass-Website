@@ -4,10 +4,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-.link-style a, footer.horizontal a, footer.vertical a, footer.vertical .social-icons a, footer.middle a {
+.link-style a, footer.horizontal a, footer.vertical .social-icons a, footer.middle a {
   padding: 0.4rem;
   transition: all 1s; }
-  .link-style a:hover, footer.horizontal a:hover, footer.vertical a:hover, footer.middle a:hover {
+  .link-style a:hover, footer.horizontal a:hover, footer.vertical .social-icons a:hover, footer.middle a:hover {
     color: #ff652f; }
 
 footer.horizontal {

@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     .projects__bio-image{
         margin-bottom: 0.5rem;
         text-align: center;
     }
 }
 .projects{
-    &__items{
+    &__items {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -17,14 +18,17 @@
         padding: 2rem 5rem;
         gap: 1rem 0rem;
     }
-    &__item{
+
+    &__item {
         position: relative;
         width: 33%;
         cursor: pointer;
         border-bottom: 5px solid $secondary-color;
+
         img{
             width: 100%;
         }
+
         // position: relative;
         &::after{
             content: '';
@@ -36,6 +40,7 @@
             opacity: 0;
             @include transition(1s)
         }
+        
         &:hover::after{
             opacity: 0.7;
         }
